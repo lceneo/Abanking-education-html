@@ -1,0 +1,23 @@
+.header{
+  &__nav{
+    padding-left: 856px;
+  }
+  &__list{
+    display: flex;
+    padding-left: 0px;
+  }
+  &__item{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 33px;
+  }
+  &-item{
+    &__text{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+}

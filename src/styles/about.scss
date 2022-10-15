@@ -1,0 +1,43 @@
+.about{
+  &__container{
+    display: flex;
+    padding-left: 148px;
+  }
+  &-container{
+    padding-top: 158px;
+  }
+  &__title{
+    margin-bottom: 40px;
+    width: 506px;
+    height: 105px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+  }
+  &__text{
+    margin-bottom: 47px;
+    width: 497px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+  }
+  &__button{
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  &__image{
+    width: 243px;
+    height: 243px;
+    margin-left: 115px;
+  }
+}
