@@ -1,16 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>John(Copy)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
+    <header class = "header">
+        <nav class = "header__nav">
+            <ul class= "header__list">
+                <li class = "header__item header-item">
+                    <a class="header-item__text" href="#">Works</a>
+                </li>
+                <li class = "header__item  header-item">
+                    <a class="header-item__text" href="#">Blog</a>
+                </li>
+                <li class = "header__item  header-item">
+                    <a class="header-item__text" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class = "about">
+        <div class = "about__container about-container">
+            <div class = "about-container__info">
+                <h1 class="about__title">Hi, I am John,<br>
+                    Creative Technologist</h1>
+                <p class="about__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                    consequat sunt nostrud amet.</p>
+                <a href="#">
+                    <button class="about__button">Download Resume</button>
+                </a>
+            </div>
+            <img src="/images/john.png" class="about__image">
+        </div>
+    </main>
+
+    <section class = "posts">
+        <div class = "posts__info posts-info">
+            <h3 class="posts-info__title">Recent posts</h3>
+            <a href="#" class="posts-info__link">View all</a>
+        </div>
+        <ul class = "posts__list">
+            <li class = "posts__item posts-item">
+                <a href="#" class="posts-item__link">
+                    <article class="posts__article posts-article">
+                        <h2 class="posts-article__title">Making a design system from scratch</h2>
+                        <h3 class="posts-article__subtitle">Design, Pattern</h3>
+                        <p class="posts-article__text">Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.</p>
+                    </article>
+                </a>
+            </li>
+            <li class = "posts__item posts-item">
+                <a href="#" class="posts-item__link">
+                    <article class="posts__article posts-article">
+                        <h2 class="posts-article__title">Creating pixel perfect icons in Figma</h2>
+                        <h3 class="posts-article__subtitle">Figma, Icon Design</h3>
+                        <p class="posts-article__text">Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.</p>
+                    </article>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="works">
+        <h3 class="works__title">Featured works</h3>
+        <ul class="works__list">
+            <li class="works__item works-item">
+                <a href="#" class="works__link">
+                    <div class="works-item__container">
+                        <img src="/images/dashboards.png" class="works-item__image">
+                        <div class="works-item__info">
+                            <h2 class="works-item__title">Designing Dashboards</h2>
+                            <div class="works-item__side">
+                                <div class="works-item__year">
+                                    <p class="works-item-year">2020</p>
+                                </div>
+                                <p class="works-item__type">Dashboard</p>
+                            </div>
+                            <p class="works-item__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class = "works__line"></div>
+            </li>
+
+            <li class="works__item works-item">
+                <a href="#" class="works__link">
+                    <div class="works-item__container">
+                        <img src="/images/portraits.png" class="works-item__image">
+                        <div class="works-item__info">
+                            <h2 class="works-item__title">Vibrant Portraits of 2020</h2>
+                            <div class="works-item__side">
+                                <div class="works-item__year">
+                                    <p class="works-item-year">2018</p>
+                                </div>
+                                <p class="works-item__type">Illustration</p>
+                            </div>
+                            <p class="works-item__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class = "works__line"></div>
+            </li>
+
+            <li class="works__item works-item">
+                <a href="#" class="works__link">
+                    <div class="works-item__container">
+                        <img src="/images/malayalam.png" class="works-item__image">
+                        <div class="works-item__info">
+                            <h2 class="works-item__title">36 Days of Malayalam type</h2>
+                            <div class="works-item__side">
+                                <div class="works-item__year">
+                                    <p class="works-item-year">2018</p>
+                                </div>
+                                <p class="works-item__type">Typography</p>
+                            </div>
+                            <p class="works-item__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class = "works__line"></div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item footer-item">
+                <a href="#" class="footer-item__link">
+                    <img src="/images/fb.svg" class="footer-item__image">
+                </a>
+            </li>
+            <li class="footer__item footer-item">
+                <a href="#" class="footer-item__link">
+                    <div class="footer-inst">
+                        <img src="/images/inst.svg" class="footer-inst__bottom">
+                        <img src="/images/inst1.svg" class="footer-inst__top">
+                        <img src="/images/inst2.svg" class="footer-inst__topper">
+                    </div>
+                </a>
+            </li>
+            <li class="footer__item footer-item">
+                <a href="#" class="footer-item__link">
+                    <img src="/images/twitter.svg" class="footer-item__image">
+                </a>
+            </li>
+            <li class="footer__item footer-item">
+                <a href="#" class="footer-item__link">
+                 <img src="/images/linkedin.svg" class="footer-item__image">
+                </a>
+            </li>
+        </ul>
+        <cite class="footer__copyright">Copyright ©2020 All rights reserved</cite>
+    </footer>
 </body>
 
 </html>
